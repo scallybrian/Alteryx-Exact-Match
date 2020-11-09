@@ -3,7 +3,6 @@
 
 The *Exact Match* macro enables the user to join a dataset to itself based on multiple pairs of primary keys specified in the dataset.
 
-[Use case - customer record data](https://www.notion.so/ad4f9efda24d440f8fcebb067e755547)
 
 We have a customer dataset and we suspect that there is duplication. The same customer seems to appear in more than one record with varying levels of information:
 
@@ -12,6 +11,7 @@ We have a customer dataset and we suspect that there is duplication. The same cu
 - Sometimes the email and phone number matches (C001 & C004)
 
 If two or more identifying fields match across two records, we can be fairly confident that the records refer to the same person.
+
 
 We could bridge these records together by doing three separate joins on the different pairs of primary keys (name & email, name & phone number, email & phone number). The *Exact Match* macro allows these joins to be performed in a single tool. It subsequently identifies groups of IDs and outputs a mapping of the record IDs to a parent ID field.
 
