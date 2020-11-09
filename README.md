@@ -3,7 +3,7 @@
 
 The *Exact Match* macro enables the user to join a dataset to itself based on multiple pairs of primary keys specified in the dataset.
 
-![https://i.ibb.co/hyhmTvH/InputEM.png]
+![data][https://i.ibb.co/hyhmTvH/InputEM.png]
 
 We have a customer dataset and we suspect that there is duplication. The same customer seems to appear in more than one record with varying levels of information:
 
