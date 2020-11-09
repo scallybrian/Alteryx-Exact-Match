@@ -1,6 +1,8 @@
 # Alteryx-Exact-Match
  Alteryx macro for non-fuzzy matching on pairs of keys
 
+![alt text](https://i.ibb.co/5MPjpGW/Exact-Match.png)
+
 The *Exact Match* macro enables the user to join a dataset to itself based on multiple pairs of primary keys specified in the dataset.
 
 ![alt text](https://i.ibb.co/hyhmTvH/InputEM.png)
